@@ -1,0 +1,21 @@
+shangding用户信息
+
+新客户
+代号：Shangding
+超管邮箱：2508030819@qq.com
+MT5平台
+
+AWS账号：
+账户：2508030819@qq.com
+密码：Sd123213
+不用MFA代码
+
+用户端：client.shangdingfinance.com
+管理端：admin.shangdingfinance.com
+
+
+后台账号：2508030819@qq.com
+后台密码：shangding87
+
+
+服务器IP： 43.199.13.87

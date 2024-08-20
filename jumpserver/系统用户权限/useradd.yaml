@@ -1,0 +1,13 @@
+---
+- name: Copy and execute script on remote servers
+  hosts: your_group_name
+  become: yes  # 如果需要以root用户执行，请保持这一行
+  tasks:
+    - name: Copy aaa.sh to remote server
+      copy:
+        src: /path/to/local/aaa.sh
+        dest: /path/to/remote/aaa.sh
+        mode: '0755'
+
+    - name: Execute aaa.sh on remote server
+      command: /path/to/remote/aaa.sh

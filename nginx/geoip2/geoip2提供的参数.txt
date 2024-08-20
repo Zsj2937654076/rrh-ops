@@ -1,0 +1,141 @@
+curl http://127.0.0.1/ipinfo/geoip?ip=120.134.48.157&lang=ru
+
+mmdblookup --file /etc/nginx/GeoLite2-City.mmdb --ip 119.23.145.22
+
+
+
+
+
+{
+    "city": 
+      {
+        "geoname_id": 
+          1795565 <uint32>
+        "names": 
+          {
+            "de": 
+              "Shenzhen" <utf8_string>
+            "en": 
+              "Shenzhen" <utf8_string>
+            "es": 
+              "Shenzhen" <utf8_string>
+            "fr": 
+              "Shenzhen" <utf8_string>
+            "ja": 
+              "深セン市" <utf8_string>
+            "pt-BR": 
+              "Shenzhen" <utf8_string>
+            "ru": 
+              "Шэньчжэнь" <utf8_string>
+            "zh-CN": 
+              "深圳" <utf8_string>
+          }
+      }
+    "continent": 
+      {
+        "code": 
+          "AS" <utf8_string>
+        "geoname_id": 
+          6255147 <uint32>
+        "names": 
+          {
+            "de": 
+              "Asien" <utf8_string>
+            "en": 
+              "Asia" <utf8_string>
+            "es": 
+              "Asia" <utf8_string>
+            "fr": 
+              "Asie" <utf8_string>
+            "ja": 
+              "アジア" <utf8_string>
+            "pt-BR": 
+              "Ásia" <utf8_string>
+            "ru": 
+              "Азия" <utf8_string>
+            "zh-CN": 
+              "亚洲" <utf8_string>
+          }
+      }
+    "country": 
+      {
+        "geoname_id": 
+          1814991 <uint32>
+        "iso_code": 
+          "CN" <utf8_string>
+        "names": 
+          {
+            "de": 
+              "China" <utf8_string>
+            "en": 
+              "China" <utf8_string>
+            "es": 
+              "China" <utf8_string>
+            "fr": 
+              "Chine" <utf8_string>
+            "ja": 
+              "中国" <utf8_string>
+            "pt-BR": 
+              "China" <utf8_string>
+            "ru": 
+              "Китай" <utf8_string>
+            "zh-CN": 
+              "中国" <utf8_string>
+          }
+      }
+    "location": 
+      {
+        "accuracy_radius": 
+          1000 <uint16>
+        "latitude": 
+          22.555900 <double>
+        "longitude": 
+          114.057700 <double>
+        "time_zone": 
+          "Asia/Shanghai" <utf8_string>
+      }
+    "registered_country": 
+      {
+        "geoname_id": 
+          1814991 <uint32>
+        "iso_code": 
+          "CN" <utf8_string>
+        "names": 
+          {
+            "de": 
+              "China" <utf8_string>
+            "en": 
+              "China" <utf8_string>
+            "es": 
+              "China" <utf8_string>
+            "fr": 
+              "Chine" <utf8_string>
+            "ja": 
+              "中国" <utf8_string>
+            "pt-BR": 
+              "China" <utf8_string>
+            "ru": 
+              "Китай" <utf8_string>
+            "zh-CN": 
+              "中国" <utf8_string>
+          }
+      }
+    "subdivisions": 
+      [
+        {
+          "geoname_id": 
+            1809935 <uint32>
+          "iso_code": 
+            "GD" <utf8_string>
+          "names": 
+            {
+              "en": 
+                "Guangdong" <utf8_string>
+              "fr": 
+                "Province de Guangdong" <utf8_string>
+              "zh-CN": 
+                "广东" <utf8_string>
+            }
+        }
+      ]
+  }
